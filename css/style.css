@@ -19,7 +19,6 @@ input:focus:not(:focus-visible) {
   outline: 0;
 }
 
-
 .center-block {
   display: flex;
   align-items: center;
@@ -357,7 +356,6 @@ input:focus:not(:focus-visible) {
   fill: red;
 }
 
-
 .brend {
 
   min-height: 764px;
@@ -625,7 +623,9 @@ input:focus:not(:focus-visible) {
 }
 
 .products-item-content:hover .products-button-card {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products-item-content:hover .products-button-card:hover svg {
@@ -668,10 +668,6 @@ input:focus:not(:focus-visible) {
 .products-button-card svg {
   fill: #fff;
   margin: 0 11px 0 0;
-}
-
-.products-button-card span {
-  margin: 0 0 10px 0;
 }
 
 .products-button {
